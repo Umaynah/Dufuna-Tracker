@@ -1,0 +1,146 @@
+*{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color: #ECF0F1;
+	height: auto;
+}
+nav{
+	height: 100px;
+	background-color: #D0D3D4;
+	margin: -17px -8px 0px -8px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+}
+.nav_button li{
+	display: inline-block;
+}
+nav h1{
+	margin:0px 0px 30px 10px;
+	padding-left: 150px;
+	padding-top: 30px;
+	font-size: 35px;
+	color: #CB4335;
+}
+nav a{
+	text-decoration: none;
+}
+.nav_button {
+	position: relative;
+	top : -90px;
+	float: right;
+	right: 40px;
+}
+.nav_button li {
+	padding : 0px 10px;
+}
+.nav_button .button1{
+	text-align: center;
+	font-size: 18px;
+	height: 40px;
+	width: 200px;
+	color: #CB4335;
+	border : 2px solid #ECF0F1;
+	border-radius: 5px;
+	background:transparent;
+}
+.nav_button button{
+	text-align: center;
+	font-size: 18px;
+	height: 40px;
+	width: 150px;
+	color: #CB4335;
+	border : 2px solid #ECF0F1;
+	border-radius: 5px;
+	background:transparent;
+}
+
+.nav_button a button:hover{
+        font-weight: bold;
+        box-shadow: -7px 10px 16px 10px #D0D3D4;
+        background-color: #ECF0F1;
+}
+
+/* Paired Mentor- Scholar */
+.container{
+	overflow-y:scroll;
+	width:70%;
+	height:450px;
+	margin: 70px 70px 70px 200px;
+	background-color: #ECF0F1;
+	box-shadow:  -7px 10px 16px 10px #D0D3D4;
+}
+.container h2{
+	position: relative;
+	left: -10px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+	text-transform: uppercase;
+	color: #CB4335;
+}
+
+
+table{
+	margin: 50px 30px 20px 250px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+thead{
+	background-color: #D0D3D4;
+}
+th{
+	font-size: 18px;
+	margin: 0px;
+	padding: 12px;
+	text-align: center;
+	border:1px solid black;
+}
+td{
+	font-size: 15px;
+	margin: 0px;
+	padding: 12px;
+	text-align: center;
+	border:1px solid black;
+}
+.Mentors{
+	width: 200px;
+}
+.Scholars{
+	width: 200px;
+}
+
+/*Footer*/
+footer{
+	width: auto;
+	height:50%;
+	background-color: #D0D3D4;
+	margin: -8px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+}
+
+footer ul{
+	list-style-type: none;
+	margin: 30px 50px 30px 450px;
+	
+}
+footer li{
+	display: inline-block;
+	margin: 40px;
+	font-size: 30px;
+	color: black;
+}
+.icon{
+	font-size: 35px;
+	position: relative;
+	top : 10px;
+	color:black;
+}
+
+#copyright{
+	margin: 20px 470px;
+	font-size: 15px;
+	color: #CB4335;
+}
