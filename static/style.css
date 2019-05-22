@@ -92,16 +92,6 @@ ul.nav{
 	font-weight: bold;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-  transition: 2s;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #B90C2C;
-}
 
 
 /*Table Box Style*/
@@ -118,8 +108,7 @@ ul.nav{
 	padding-top: 20px;
 	font-size: 20px;
 	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
-	text-transform: uppercase;
-	color: #CB4335;
+	c
 }
 
 
