@@ -1,5 +1,6 @@
 body{
 	background-color: #ECF0F1;
+	font-family: 'Avial';
 }
 * {
   box-sizing: border-box;
@@ -24,14 +25,16 @@ header a{
 .container{
 	margin: 0 auto;
 	width: 400px;
-	height: 850px;
+	height: 900px;
 	border: 0px solid #D0D3D4;
 	box-shadow:  -7px 10px 16px 10px #D0D3D4;
 }
-.container h2{
+.container h3{
 	text-align: center;
 	position: relative;
-	padding: 10px;
+	padding: 10px 5px 5px 10px;
+	color: #CB4335;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
 } 
 ul {
 	list-style: none;
@@ -41,7 +44,7 @@ ul {
   padding: 10px;
   border: none;
   border-radius: 4px;
-  margin: 10px 10px;
+  margin: 10px 10px 10px 17px;
   opacity: 0.85;
   display: inline-block;
   font-size: 17px;
@@ -93,7 +96,7 @@ button{
   	padding: 10px;
   	border: none;
   	border-radius: 4px;
-  	margin: 10px 30px;
+  	margin: 5px 30px 15px 30px;
   	opacity: 0.85;
   	display: inline-block;
   	font-size: 17px;

@@ -93,7 +93,6 @@ ul.nav{
 }
 
 
-
 /*Table Box Style*/
 .table_box {
 	overflow-y:scroll;
@@ -108,7 +107,7 @@ ul.nav{
 	padding-top: 20px;
 	font-size: 20px;
 	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
-	c
+	color: #CB4335;
 }
 
 
