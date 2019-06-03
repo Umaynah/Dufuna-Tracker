@@ -1,0 +1,237 @@
+body{
+	background-color: #ECF0F1;
+	height: auto;
+}
+*{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+nav{
+	height: 100px;
+	background-color: #D0D3D4;
+	margin: -17px -8px 0px -8px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+}
+.nav_button li{
+	display: inline-block;
+}
+nav h1{
+	margin:0px 0px 30px 15px;
+	padding-left: 150px;
+	padding-top: 30px;
+	font-size: 35px;
+	color: #CB4335;
+}
+nav a{
+	text-decoration: none;
+}
+
+.nav_button {
+	position: relative;
+	top : -90px;
+	float: right;
+	right: 40px;
+}
+.nav_button li {
+	padding : 0px 10px;
+}
+
+.nav_button button{
+	text-align: center;
+	font-size: 18px;
+	height: 40px;
+	width: 150px;
+	color: #CB4335;
+	border : 2px solid #ECF0F1;
+	border-radius: 5px;
+	background:transparent;
+}
+.nav_button a button:hover{
+        font-weight: bold;
+        box-shadow: -7px 10px 16px 10px #D0D3D4;
+        background-color: #ECF0F1;
+}
+.icon{
+	font-size: 35px;
+	position: relative;
+	top : 10px;
+	color:black;
+}
+.nav_button li a{
+	color: inherit;
+}
+.nav_button li a:active{
+	color: #CB4335;
+}
+.container{
+	width: 70%;
+	margin: 50px 100px 70px 200px;
+	height: 450px;
+	border: 0px solid #D0D3D4;
+	box-shadow:  -7px 10px 16px 10px #D0D3D4 ;
+	position: relative;
+	overflow-y: scroll;
+}
+.profile{
+	width: 90%;
+	margin: 40px;
+  	position: absolute;
+}
+.profile ul{
+	list-style-type: none;
+}
+.profile img{
+	float: right;
+	border-radius: 150px;
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+}
+.profile h2{
+	padding: 40px 20px 10px 20px;
+	color: #CB4335;
+	font-family:"Lucida Bright","Lucida Fax", Palatino;
+}
+.profile h3{
+	padding-left: 20px;
+	color: #CB4335;
+	font-family:"Lucida Bright","Lucida Fax", Palatino;
+}
+
+table{
+	position: absolute;
+	top: 250px;
+	margin: 50px 50px 0px 125px;
+	border-collapse: collapse;
+}
+thead{
+	background-color: #D0D3D4;
+}
+th{
+	font-size: 18px;
+	margin: 0px;
+	padding: 12px;
+	text-align: center;
+	border:1px solid black;
+}
+td{
+	font-size: 15px;
+	margin: 0px;
+	padding: 12px;
+	text-align: center;
+	border:1px solid black;
+}
+.Week_Count,.Status{
+	width: 150px;
+}
+.Activity,.File_link{
+	width: 200px
+}
+/*Footer*/
+footer{
+	width: auto;
+	height:50%;
+	background-color: #D0D3D4;
+	margin: -8px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+}
+
+footer ul{
+	list-style-type: none;
+	margin: 30px 50px 30px 400px;
+	
+}
+footer li{
+	display: inline-block;
+	margin: 40px;
+}
+
+#copyright{
+	margin: 20px 450px;
+	font-size: 15px;
+	color: #CB4335;
+}
+
+
+
+
+/* MEDIA QUERIES for Mobile Phones*/
+
+@media (min-width: 481px) and (max-width: 768px){
+nav{
+	min-width: 100%;
+	height: 100px;
+	background-color: #D0D3D4;
+	margin: -17px -8px 0px -8px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+}
+nav h1{
+	margin:0px 0px 30px -50px;
+	padding-left: 150px;
+	padding-top: 30px;
+	font-size: 35px;
+	color: #CB4335;
+}
+.container{
+	width: 150%;
+	margin: 50px 100px 70px 125px;
+	height: 450px;
+	border: 0px solid #D0D3D4;
+	box-shadow:  -7px 10px 16px 10px #D0D3D4 ;
+	position: relative;
+	overflow-y: scroll;
+}
+.profile{
+	max-width: 100%;
+	margin: 25px 5px;
+  	position: absolute;
+}
+.profile h2{
+	padding: 40px 8px 10px 0px;
+	margin: 0px -10px;
+	color: #CB4335;
+	font-family:"Lucida Bright","Lucida Fax", Palatino;
+}
+.profile h3{
+	position: relative;
+	padding: 10px;
+	margin: 0px -20px;
+	font-size: 20px;
+	color: #CB4335;
+	font-family:"Lucida Bright","Lucida Fax", Palatino;
+}
+.profile img{
+	position:relative;
+	right: -8px;
+	border-radius: 150px;
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+}
+/*Footer*/
+footer{
+	max-width: 780px;
+	background-color: #D0D3D4;
+	margin: -8px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS";
+}
+footer ul{
+	list-style-type: none;
+	margin: 30px 25px 30px 170px;
+	
+}
+
+#copyright{
+	margin: 20px 210px;
+	font-size: 15px;
+	color: #CB4335;
+}
+
+
+/* Media Queries for Tablet*/
+@media (min-width: 768px) and (max-width: 1280px){
+
+}
+
+
